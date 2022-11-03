@@ -1,6 +1,11 @@
 //? O método charAt() retorna o
 //? caractere especificado a partir de uma string.
 
+
+// Sintaxe
+// str.charAt(index)
+
+
 var anyString = 'Brave new world'
 
 console.log("A letra no índice 0 é '" + anyString.charAt(0) + "'")
