@@ -3,6 +3,7 @@
 //? outra string, retornando true ou false.
 
 //? Case-sensitivity
+//? Faz diferença de maiusculo e minusculo
 
 // Sintaxe
 // str.includes(searchString[, position])
@@ -24,3 +25,8 @@ console.log(str.includes('ser', 1))
 console.log(str.includes('SER'))
 // false
 
+console.log(str.includes('eis'))
+// true
+
+console.log(str.includes('Eis'))
+// false
