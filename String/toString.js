@@ -1,5 +1,6 @@
 //? O método toString() retorna uma string
 //? representando o objeto especificado.
+//! equivalente a String.prototype.valueOf().
 
 //? Sintaxe
 // str.toString()
