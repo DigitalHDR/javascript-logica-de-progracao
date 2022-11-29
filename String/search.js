@@ -31,3 +31,4 @@ console.log(str.search(reDot))
 //todo =====================================================
 const str1 = 'lucas fernando'
 console.log(str1.search(/fernando/i))
+// 6
