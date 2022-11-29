@@ -6,47 +6,47 @@
 // //? Case-sensitivity
 // //? Faz diferença de maiusculo e minusculo
 
-// // Sintaxe
-// // str.indexOf(searchValue[, fromIndex])
+// Sintaxe
+// str.indexOf(searchValue[, fromIndex])
 
-// 'Olá, mundo'.indexOf('', 11)
-// // retorna 10
+console.log('Olá, mundo'.indexOf('', 11))
+// retorna 10
 
-// 'Olá, mundo'.indexOf('', 13)
-// // retorna 10
+'Olá, mundo'.indexOf('', 13)
+// retorna 10
 
-// 'Olá, mundo'.indexOf('', 22)
-// // retorna 10
+'Olá, mundo'.indexOf('', 22)
+// retorna 10
 
-// 'Blue Whale'.indexOf('Blue')
-// // retorna  0
+console.log('Blue Whale'.indexOf('Blue'))
+// retorna  0
 
-// 'Blue Whale'.indexOf('Whale')
-// // retorna  5
+'Blue Whale'.indexOf('Whale')
+// retorna  5
 
-// 'Blue Whale'.indexOf('Blute')
-// // retorna -1
+'Blue Whale'.indexOf('Blute')
+// retorna -1
 
-// 'Blue Whale'.indexOf('Whale', 0)
-// // retorna  5
+'Blue Whale'.indexOf('Whale', 0)
+// retorna  5
 
-// 'Blue Whale'.indexOf('Whale', 5)
-// // retorna  5
+'Blue Whale'.indexOf('Whale', 5)
+// retorna  5
 
-// 'Blue Whale'.indexOf('Whale', 7)
-// // retorna -1
+'Blue Whale'.indexOf('Whale', 7)
+// retorna -1
 
-// 'Blue Whale'.indexOf('')
-// // retorna  0
+'Blue Whale'.indexOf('')
+// retorna  0
 
-// 'Blue Whale'.indexOf('', 9)
-// // retorna  9
+'Blue Whale'.indexOf('', 9)
+// retorna  9
 
-// 'Blue Whale'.indexOf('', 10)
-// // retorna 10
+'Blue Whale'.indexOf('', 10)
+// retorna 10
 
-// 'Blue Whale'.indexOf('', 11)
-// // retorna 10
+'Blue Whale'.indexOf('', 11)
+// retorna 10
 
 // //todo =====================================================
 
@@ -92,13 +92,13 @@
 
 // //todo =====================================================
 
-const str = 'Serx ou nãox ser, eisx ax questão'
-count = 0
-pos = str.indexOf('x')
+// const str = 'Serx ou nãox ser, eisx ax questão'
+// count = 0
+// pos = str.indexOf('x')
 
-while (pos != -1) {
-  count++
-  pos = str.indexOf('x', pos + 1)
-}
+// while (pos != -1) {
+//   count++
+//   pos = str.indexOf('x', pos + 1)
+// }
 
-console.log(count)
+// console.log(count)

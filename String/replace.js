@@ -41,6 +41,7 @@
 // deve ser uma string consistindo em um ou mais dos seguintes
 // caracteres para afetar a operação, tais como descrito:
 
+//? expressões regulares
 // g // Combinação global.
 // i // Ignora diferenças entre maiúsculas e minúsculas.
 // m // Combinação em várias linhas.

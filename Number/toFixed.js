@@ -41,3 +41,7 @@ numObj.toFixed(6)
 
 ;(-2.34).toFixed(1)
 // Retorna '-2.3' (...a menos que se utilize parênteses)
+
+//todo =====================================================
+const num1 = 10283.2334
+console.log(num1.toFixed(2))

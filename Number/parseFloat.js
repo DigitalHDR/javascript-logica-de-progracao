@@ -75,3 +75,8 @@ parseFloat('-1.7976931348623159e+308') // -Infinity
 
 parseFloat("Infinity"); // Infinity
 parseFloat("-Infinity"); // -Infinity
+
+//todo =====================================================
+const num1 = 1.206
+console.log(parseFloat(num1))
+console.log(parseInt(num1))

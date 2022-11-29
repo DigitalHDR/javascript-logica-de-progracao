@@ -25,3 +25,11 @@
 //todo =====================================================
 console.log(parseInt('10')) //retorna 10
 console.log(parseInt('10.873')) //retorna 10
+
+//todo =====================================================
+const num1 = '10'
+console.log(parseInt(num1))
+
+//todo =====================================================
+const num2 = 30
+console.log(Number.parseInt(num2))

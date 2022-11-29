@@ -1,6 +1,8 @@
 //? O método charAt() retorna o
 //? caractere especificado a partir de uma string.
 
+//? retorna o
+//? caractere especificado a partir de um indice
 
 // Sintaxe
 // str.charAt(index)

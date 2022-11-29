@@ -15,7 +15,7 @@ console.log(num)
 console.log(typeof num)
 // expected output: "number"
 
-console.log("=====================================================")
+console.log('=====================================================')
 
 var numObj2 = new Number(10)
 console.log(typeof numObj2) // object

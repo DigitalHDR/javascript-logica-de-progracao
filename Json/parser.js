@@ -3,11 +3,11 @@
 //? reviver opcional pode ser fornecida para executar uma
 //? transformação no objeto resultante antes de ser retornada.
 
-const json = '{"result":true, "count":42}';
-const obj = JSON.parse(json);
+const json = '{"result":true, "count":42}'
+const obj = JSON.parse(json)
 
-console.log(obj.count);
+console.log(obj.count)
 // 42
 
-console.log(obj.result);
+console.log(obj.result)
 // true
