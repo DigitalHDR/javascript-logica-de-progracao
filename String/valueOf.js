@@ -1,4 +1,4 @@
-//? O método valueOf() retorna o valor primitivo de um objeto String.
+//? O método valueOf() retorna o valor primitivo de um objeto String ou Number
 //! equivalente a String.prototype.toString().
 
 //? Sintaxe
