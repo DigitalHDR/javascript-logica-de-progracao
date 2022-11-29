@@ -9,3 +9,6 @@ var x = new String('Hello world')
 
 console.log(x.toString())
 //! retorna 'Hello world'
+
+console.log(typeof(x))
+// object
