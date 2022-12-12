@@ -2,6 +2,8 @@
 //? O método concat () retorna um novo array contendo todos
 //? os arrays ou valores passados como parâmetro
 
+//arr.concat(valor1, valor2, ..., valorN)
+
 // const a1 = [1,2,3]
 // const a2 = [4,5,6]
 // const a3 = [...a1, 'lucas', ...a2, [7,8,9]]
