@@ -1,5 +1,8 @@
 //?    O método fill() preenche todos os valores do array
 //? a partir do índice inicial a um índice final com um valor estático
+
+//arr.fill(valor[, ínicio = 0[, fim = this.length]])
+
 // const array = [1,1,1,1,1,1,1,1,1]
 // array.fill(0)
 // console.log(array)
