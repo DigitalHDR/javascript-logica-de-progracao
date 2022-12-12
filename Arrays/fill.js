@@ -3,6 +3,16 @@
 
 //arr.fill(valor[, ínicio = 0[, fim = this.length]])
 
+//? Parâmetros
+// valor
+// Valor para preencher o array.
+
+// ínicio
+// Opcional. Índice inicial.
+
+// fim
+// Opcional. Índice final.
+
 // const array = [1,1,1,1,1,1,1,1,1]
 // array.fill(0)
 // console.log(array)
