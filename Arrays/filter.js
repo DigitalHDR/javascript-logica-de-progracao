@@ -2,6 +2,29 @@
 //? os elementos que passaram no teste implementado
 //? pela função fornecida.
 
+
+//? Sintaxe
+// var newArray = arr.filter(callback[, thisArg])
+
+
+//? Parâmetros
+//? callback
+// Função é um predicado, para testar cada elemento do array. Retorna true para manter o elemento, false caso contrário, recebendo três argumentos:
+
+//? element
+// O elemento que está sendo processado no array.
+
+//? index
+// O índice do elemento atual que está sendo processado no array.
+
+//? array
+// O array para qual filter foi chamada.
+
+//? thisArg Optional
+// Opcional. Valor a ser usado como this durante a execução do callback.
+
+//todo =====================================================
+
 // function isBigEnough(value) {
 //   return value >= 10
 // }
