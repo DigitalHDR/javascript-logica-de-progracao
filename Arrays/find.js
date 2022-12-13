@@ -2,6 +2,30 @@
 //? do array que satisfizer a função de teste provida.
 //? Caso contrario, undefined é retornado.
 
+
+//? Sintaxe
+// arr.find(callback(element[, index[, array]])[, thisArg])
+
+
+//? Parâmetros
+// callback
+// Função executada a cada iteração do array, recebendo três argumentos:
+
+//? element
+// O elemento atual que está sendo processado no array.
+
+//? indexOptional
+// O índice do elemento atualmente sendo processado no array.
+
+//? arrayOptional
+// O array sobre o qual find foi chamado.
+
+//? thisArgOptional
+// Opcional. Objeto usado como this quando executando o callback.
+
+
+//todo =====================================================
+
 // const array1 = [5, 12, 8, 130, 44]
 // const found = array1.find(element => element > 10)
 // console.log(found)
