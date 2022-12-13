@@ -1,6 +1,13 @@
 //? O método Array.isArray() retorna true se um
 //? objeto é uma array, e false se não é.
 
+//? Sintaxe
+// Array.isArray(obj)
+
+//? Parâmetros
+//? obj
+// O objeto a ser verificado.
+
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //*     | todas as chamadas conseguintes retornam true |
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
