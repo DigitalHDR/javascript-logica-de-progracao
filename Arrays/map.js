@@ -2,6 +2,27 @@
 //? por argumento para cada elemento do Array e devolve
 //? um novo Array como resultado.
 
+//? Sintaxe
+// arr.map(callback[, thisArg])
+
+//? Parâmetros
+//? callback
+// Função cujo retorno produz o elemento do novo Array. Recebe três argumentos:
+
+//? valorAtual
+// O valor do elemento original do Array de origem.
+
+//? indice
+// O índice do elemento atual que está sendo processado no array.
+
+//? array
+// O Array de origem.
+
+//? thisArg
+// Opcional. Valor a ser utilizado como o this no momento da execução da função callback
+
+//todo =====================================================
+
 // var numbers = [1, 4, 9]
 // var roots = numbers.map(Math.sqrt)
 
