@@ -20,3 +20,20 @@
 //? arg1, arg2, ...
 // Argumentos para o objeto.
 
+const obj1 = {
+  exemplo: 'exemplo1',
+  mostraThis: function thisCallExemplo() {
+    console.log(this)
+  },
+}
+
+obj1.mostraThis()
+//! { exemplo: 'exemplo1', mostraThis: [Function: thisCallExemplo] }
+
+const obj2 = { exemplo: 'exemplo2' }
+
+obj1.mostraThis.call(obj2)
+//! { exemplo: 'exemplo2' }
+
+//* perceba que na 1°x o 'this' é 'exemplo1'
+//* e na 2°x o 'this' é 'exemplo2', pois na 2°x o 'this' está apontando para o 'obj2'
