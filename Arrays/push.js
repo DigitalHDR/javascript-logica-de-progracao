@@ -2,6 +2,15 @@
 //? elementos ao final de um array e retorna
 //? o novo comprimento desse array.
 
+
+//? Sintaxe
+// arr.push(elemento1, ..., elementoN)
+
+//? Parâmetros
+// elementoN
+// Os elementos a serem incluídos ao final do array.
+//todo =====================================================
+
 // var numeros = [1, 2, 3]
 // const result1 = numeros.push(4)
 // console.log(result1)
