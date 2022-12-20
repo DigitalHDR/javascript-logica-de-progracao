@@ -2,6 +2,11 @@
 //? de um array e retorna esse elemento. Este
 //? método muda o tamanho do array.
 
+//? Sintaxe
+// arr.shift()
+
+//todo =====================================================
+
 // const array1 = [1, 2, 3]
 // const firstElement = array1.shift()
 // console.log(array1)
