@@ -12,6 +12,22 @@
 //? acordo com a pontuação de código Unicode de cada
 //? um dos caracteres, e nenhuma cópia é feita.
 
+//? Sintaxe
+// arr.sort([funcaoDeComparacao])
+
+//? Parâmetros
+//? funcaoDeComparacao Optional
+// Especifica uma função que define a ordenação. Se omitido, o array
+// é ordenado de acordo com a pontuação de código Unicode de cada um
+// dos caracteres, de acordo com a conversão de cada elemento para string.
+
+//? primeiroElemento
+// O primeiro elemento para a comparação.
+
+//? segundoElemento
+// O segundo elemento para comparação.
+
+//todo =====================================================
 // var fruit = ['cherries', 'apples', 'bananas']
 // var result1 = fruit.sort()
 // console.log(result1)
