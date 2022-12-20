@@ -2,9 +2,9 @@
 //? um array. O primeiro elemento do array se
 //? torna o último e o último torna-se o primeiro.
 
-// var myArray = ['one', 'two', 'three']
-// const result1 = myArray.reverse()
-// console.log(result1)
+var myArray = ['one', 'two', 'three', ' 4', '5', '6', '7', '8', '9']
+const result1 = myArray.reverse()
+console.log(result1)
 //! (3) ['three', 'two', 'one']
 //todo =====================================================
 // var myArray = [1, 2, 3]

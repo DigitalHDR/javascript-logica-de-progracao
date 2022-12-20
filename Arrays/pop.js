@@ -1,6 +1,10 @@
 //? O método pop() remove o último elemento
 //? de um array e retorna aquele elemento.
 
+//? Sintaxe
+// arr.pop()
+
+
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //*     | Removendo o último elemento de um array |
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
