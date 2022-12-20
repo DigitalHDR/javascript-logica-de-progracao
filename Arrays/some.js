@@ -6,6 +6,28 @@
 //? Esta função retorna true se a função callback
 //? retornar true para qualquer elemento do array;
 //? caso contrário, false.
+
+
+//? Sintaxe
+// arr.some(callback[, thisArg])
+
+//? Parâmetros
+//? callback
+// Função para testar cada elemento, recebendo três argumentos:
+
+//? currentValue
+// O valor atual do elemento sendo processado no array.
+
+//? index
+// O índice do elemento atual sendo processado no array.
+
+//? array
+// O array onde o método some() foi chamado.
+
+//? thisArg
+// Opcional. Valor para usar como this durante a execução do callback
+
+
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //*     | Testando valores de elementos de um array |
 //* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
