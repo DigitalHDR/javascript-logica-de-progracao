@@ -1,6 +1,10 @@
 //? O método values() retorna um novo objeto de
 //? Array Iterator que contém os valores para cada índice no array.
 
+//? Sintaxe
+// values()
+
+
 // var arr = ['w', 'y', 'k', 'o', 'p']
 // var eArr = arr.values()
 // console.log(eArr)
