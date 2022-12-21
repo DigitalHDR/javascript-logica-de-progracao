@@ -11,6 +11,13 @@
 //? >>>>> Number: Number.prototype.toLocaleString()
 //? >>>>> Date: Date.prototype.toLocaleString()
 
+
+//? Sintaxe
+// numObj.toLocaleString([locales [, options]])
+
+//? PARECE TER VARIOS PARAMETROS PARA ESSE METODO VER NO SITE
+
+
 var numero = 1337
 var data = new Date()
 var meuArray = [numero, data, 'foo']
