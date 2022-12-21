@@ -13,9 +13,16 @@
 
 
 //? Sintaxe
-// numObj.toLocaleString([locales [, options]])
+//? toLocaleString()
+//? toLocaleString(locales)
+//? toLocaleString(locales, options)
 
-//? PARECE TER VARIOS PARAMETROS PARA ESSE METODO VER NO SITE
+//? Parâmetros
+// Os argumentos localese optionspersonalizam o comportamento da
+// função e permitem que os aplicativos especifiquem a linguagem
+// cujas convenções de formatação devem ser usadas. Em implementações,
+// que ignoram os argumentos localese options, a localidade usada e
+// a forma da string retornada são totalmente dependentes da implementação.
 
 
 var numero = 1337
