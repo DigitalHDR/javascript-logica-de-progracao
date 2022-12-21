@@ -5,6 +5,16 @@
 //? Retorna
 //? A nova propriedade length do objeto acima onde o método foi chamado.
 
+//? Sintaxe
+// unshift(element0)
+// unshift(element0, element1)
+// unshift(element0, element1, /* … ,*/ elementN)
+
+//? Parâmetros
+// elementN
+// Os elementos a serem adicionados à frente do arquivo arr.
+
+//todo =====================================================
 var arr = [1, 2]
 console.log(arr)
 //! (2) [1, 2]
