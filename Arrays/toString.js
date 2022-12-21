@@ -2,12 +2,9 @@
 //? um array específico e seus elementos.
 
 //? Sintaxe
-// numObj.toString([radix])
+// toString()
 
-//? Parâmetros
-// radix
-// Opcional. Um inteiro entre 2 e 36 especificando a base utilizada
-// para representar os valores numéricos.
+//todo =====================================================
 
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr']
 var myVar = monthNames.toString()
@@ -16,3 +13,9 @@ console.log(myVar)
 
 console.log(monthNames)
 //! (4) ['Jan', 'Feb', 'Mar', 'Apr']
+
+//todo =====================================================
+
+const array1 = [1, 2, 'a', '1a'];
+console.log(array1.toString());
+// expected output: "1,2,a,1a"
